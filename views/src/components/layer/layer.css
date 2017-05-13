@@ -1,0 +1,10 @@
+.layer {
+    float: left;
+    width: 100px;
+    height: 200px;
+    border: 1px solid yellow;
+}
+
+.flexFlex {
+    display: flex;
+}
