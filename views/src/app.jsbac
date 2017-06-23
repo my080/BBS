@@ -1,0 +1,49 @@
+"use strict";
+
+import 'core-js/fn/object/assign';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Login from "./components/login/login.js";
+
+// ReactDOM.render(Login, document.getElementById("container"));
+// var App = React.createClass({
+//     render: function() {
+//         return <div>Hello {this.props.name}</div>
+//     }
+// });
+//
+// ReactDOM.render(<App name="dfdfdf" />, document.getElementById("container"));
+
+
+//写法1
+// const message = "you are dogs!";
+//
+// ReactDOM.render(<div>{message}</div>, document.getElementById("container"));
+
+// let names = [
+//     <h1>ceshi</h1>,
+//     <h1>ceshi</h1>,
+//     <h1>ceshi</h1>
+// ];
+// ReactDOM.render(<div>{names}</div>, document.getElementById("container"));
+
+let nameArray = [
+    "ceshidfdf",
+    "ceshi",
+    "ceshi"
+]
+
+// ReactDOM.render(<div>
+//     {
+//         nameArray.map(function (name) {
+//             return <h1>{name}</h1>
+//         })
+//     }
+//     </div>, document.getElementById("container"));
+
+// ES6 写法
+ReactDOM.render(<div>
+    {
+        nameArray.map((name) => <h1>{name}</h1>)
+    }
+</div>, document.getElementById("container"));

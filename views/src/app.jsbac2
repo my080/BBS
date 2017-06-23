@@ -1,0 +1,35 @@
+"use strict";
+
+import 'core-js/fn/object/assign';
+import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
+import style from './style/style.css';
+// import Login from "./components/login/login.js";
+// import Person from "./components/Person/Person.js";
+import Html from "./components/html/Html.js";
+
+
+
+// var let const;
+
+//ES5 创建组件
+// let Person = React.createClass({
+//    render: function () {
+//        return <h1>灵儿</h1>;
+//    }
+// });
+
+// class Manager extends Component {
+//     render() {
+//         return (
+//             <div>
+//             <h1>周亮</h1>
+//             <h1>爱</h1>
+//             <h1>灵儿</h1>
+//             </div>
+//         );
+//     }
+// }
+
+// ES6 写法
+// ReactDOM.render(<Html />, document.getElementById("container"));

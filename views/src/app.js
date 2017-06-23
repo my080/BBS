@@ -1,16 +1,14 @@
-'use strict';
+"use strict";
 
-import "./style/style.less";
 import 'core-js/fn/object/assign';
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-// import imageData from './data/image.json';
-require('./style/style.less');
+import TodoApp from "./components/Todo/TodoApp";
+import style from "./style/style.css";
+import Css from "./components/css/Html";
 
-var App = React.createClass({
-    render: function() {
-        return <div>Hello {this.props.name}</div>
-    }
-});
 
-ReactDOM.render(<App name="dfdfdf" />, document.getElementById("container"));
+
+
+// ES6 写法
+ReactDOM.render(<TodoApp />, document.getElementById("container"));

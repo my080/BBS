@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+    <!--[if lt IE9]>
+    <script>
+        (function() {
+            if (!
+                            /*@cc_on!@*/
+                            0) return;
+            var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+            var i= e.length;
+            while (i--){
+                document.createElement(e[i])
+            }
+        })()
+    </script>
+    <![endif]-->
+</head>
+<body>
+    <!--<div class="header">-->
+
+    <!--</div>-->
+    <header></header>
+    <footer></footer>
+    <!--<div id="container">-->
+
+    <!--</div>-->
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+p {
+    width: 400px;
+    height: 150px;
+    line-height: 150px;
+    text-align:center;
+    color: #000;
+    font-size:24px;
+    /*background-image:url("../image/1B0A8152.jpg");*/
+    background-image:linear-gradient(to left, red, orange,yellow,green,blue,indigo,violet);
+}
+.top_ban_yuan {
+    height: 50px;
+    width: 100px;
+    background: #9da;
+    border-radius: 50px 50px 0px 0px;
+}

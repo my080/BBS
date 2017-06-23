@@ -1,0 +1,17 @@
+"use strict";
+
+import 'core-js/fn/object/assign';
+import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
+import style from './style/style.css';
+import Html from "./components/html/Html.js";
+import Arith from "./common/Arith.js";
+
+let arith = new Arith("del");
+
+var testArray = ["dfdf", "ff", "dfef", "ff", "de"];
+
+console.log(arith.operate(testArray));
+
+// ES6 写法
+ReactDOM.render(<Html />, document.getElementById("container"));
